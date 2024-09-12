@@ -27,7 +27,7 @@ public String getTelefone() {
     return telefone;
 }
 
-public boolean autenticar(String email, String senha) {
-    return this.email.equals(email) && this.senha.equals(senha);
+public boolean autenticar(String email2, String senha2) {
+    return this.email.equals(email2) && this.senha.equals(senha2);
     }
 }

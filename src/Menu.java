@@ -6,10 +6,10 @@ public class Menu {
 
     public Menu() {
         itens = new ArrayList<>();
-        itens.add(new ItemMenu("Entrada 1", "Descrição da entrada", 10.0));
-        itens.add(new ItemMenu("Prato Principal 1", "Descrição do prato principal", 25.0));
-        itens.add(new ItemMenu("Sobremesa 1", "Descrição da sobremesa", 15.0));
-        itens.add(new ItemMenu("Bebida 1", "Descrição da bebida", 5.0));
+        itens.add(new ItemMenu("Entrada 1", "Descricao da entrada", 10.0));
+        itens.add(new ItemMenu("Prato Principal 1", "Descricao do prato principal", 25.0));
+        itens.add(new ItemMenu("Sobremesa 1", "Descricao da sobremesa", 15.0));
+        itens.add(new ItemMenu("Bebida 1", "Descricao da bebida", 5.0));
     }
 
     public List<ItemMenu> getItens() {
